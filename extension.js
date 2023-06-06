@@ -21,7 +21,7 @@ function activate(context) {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello VS Code!');
+		vscode.window.showInformationMessage('Hello VS Extension Code!');
 	});
 
 	context.subscriptions.push(disposable);
